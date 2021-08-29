@@ -1,0 +1,70 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.s-none {
+    text-decoration: none;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.titulo {
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    padding: 1rem;
+}
+
+.titulo-2 {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn-mas {
+    background-color: rgb(0, 195, 209);
+    border-radius: 10px;
+}
+
+.card-1 {
+    border-radius: 37px;
+    background: #e62020;
+    box-shadow: 33px 33px 67px #666666, -33px -33px 67px #ffffff;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-brand {
+    background-image: url("./assets/images/logo-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 48px;
+}
+
+.profile-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: rgba(180, 190, 203, 0.4);
+}
