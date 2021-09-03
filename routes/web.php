@@ -31,7 +31,7 @@ Route::get('home/{sport}',[BestController::class,'sport'])->name('home.sport');
 
 //paypal
 Route::get('paymet/paypal/{best}',[PaymentController::class,'index'])->name('paymen.paypal');
-Route::get('paypal.success/{details}',[PaymentController::class,'success']);
+Route::post('paypal/success',[PaymentController::class,'success'])->name('paypal.success');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
