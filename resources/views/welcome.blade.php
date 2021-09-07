@@ -207,8 +207,8 @@
                     </div> <!-- about content -->
                 </div>
                 <div class="col-lg-6">
-                    <div class="text-center about-image mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img class="img-action" src="assets/images/action-1869428__340.webp" alt="about">
+                    <div class="text-center about-image mt-50 wow fadeInRightBig radius" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img class="img-action" src="assets/images/action-1869428__340.webp" alt="about" class="radius">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -232,15 +232,14 @@
                     <div class="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeftBig;">
                         <div class="section-title">
                             <div class="line"></div>
-                            <h3 class="title"><font _mstmutation="1">Criptomonedas </font><span> with Essential Features</span></h3>
+                            <h3 class="title"><span>Pagos </span> en criptomonedas</h3>
                         </div> <!-- section title -->
-                        <p class="text">l.</p>
-                        <a href="#" class="main-btn">Try it Free</a>
+                        <p class="text">Apuestas leonardo</p>
                     </div> <!-- about content -->
                 </div>
                 <div class="col-lg-6 order-lg-first">
-                    <div class="text-center about-image mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRightBig;">
-                        <img src="assets/images/about2.svg" alt="about">
+                    <div class="text-center about-image mt-50 wow fadeInRightBig radius" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRightBig;">
+                        <img src="{{ asset('assets/images/criptomonedas.png')}}" alt="about" class="radius">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -258,15 +257,15 @@
                     <div class="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeftBig;">
                         <div class="section-title">
                             <div class="line"></div>
-                            <h3 class="title"><span>Crafted for</span><font _mstmutation="1"> SaaS, App and Software Landing Page</font></h3>
+                            <h3 class="title"><span>Pagos con</span><font _mstmutation="1"> PayPal</font></h3>
                         </div> <!-- section title -->
-                        <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                        <a href="#" class="main-btn">Try it Free</a>
+                        <p class="text">Una de las ventajas de apuestas leonardo es que puedes hacer pagos en paypal.</p>
+
                     </div> <!-- about content -->
                 </div>
                 <div class="col-lg-6">
-                    <div class="text-center about-image mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRightBig;">
-                        <img src="assets/images/about3.svg" alt="about">
+                    <div class="text-center about-image mt-50 wow fadeInRightBig radius" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRightBig;">
+                        <img src="{{ asset('assets/images/paypal.png')}}" alt="about" class="radius">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -288,8 +287,8 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-8">
                         <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <a class="logo" href="#">
-                                <p>LOGOTIPO</p>
+                            <a class="logo-footer" href="#">
+                                <img src="{{asset('assets/images/logo-2.png')}}" alt="logo" class="logo-footer">
                             </a>
                             <p class="text">Página creada para apostar apostar con toda la libertad que se merece, apueste a sus equipos favoritos y gane con ellos.</p>
                             <!--<ul class="social">
